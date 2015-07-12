@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Material Design Lite assets for rails}
   spec.description   = %q{Material-Design-Lite project that integrates Material Design Lite.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sawmebabe/material_design_lite"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
